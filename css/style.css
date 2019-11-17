@@ -2,6 +2,7 @@ body {
   font-family: "Yesteryear", cursive;
   font-family: "Vollkorn", serif;
   font-family: "Raleway", sans-serif;
+  width: 100%;
 }
 
 ul,
@@ -9,12 +10,6 @@ li {
   display: block;
   margin: 0;
   padding: 0;
-}
-
-hr {
-  height: 1px;
-  width: 97%;
-  background-color: #ffffff;
 }
 
 h1 {
@@ -31,10 +26,25 @@ h3 {
   font-size: 15px;
 }
 
+h6 {
+  font-family: Vollkorn;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.92;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
 p {
   font-family: Vollkorn;
   font-size: 20px;
   line-height: 1.67;
+}
+
+.container {
+  overflow: hidden;
 }
 
 /** Сверху пресет для удобства */
@@ -73,82 +83,6 @@ p {
   padding-bottom: 50px;
 }
 
-/** Contact */
-
-.contact {
-  width: 380px;
-  height: 450px;
-  background-color: #141723;
-}
-
-.contact__text--wraper {
-  margin-left: 33px;
-  margin-top: 31px;
-  margin-right: 37px;
-}
-
-.contact__title h2 {
-  font-family: Vollkorn;
-  font-size: 25px;
-  color: #bf9e7b;
-}
-
-.contact__title p {
-  font-family: Raleway;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 1.62;
-  color: #ffffff;
-}
-
-.contact__address h3 {
-  font-family: Raleway;
-  font-weight: 500;
-  color: #ffffff;
-}
-
-.contact__address p {
-  font-family: Vollkorn;
-  font-size: 13px;
-  color: #ffffff;
-}
-
-.contact__address a {
-  font-family: Vollkorn;
-  font-size: 13px;
-  color: #bf9e7b;
-}
-
-.contact__address hr {
-  width: 60px;
-  background-color: #be9d7a;
-}
-
-.contact__shedule h3 {
-  font-family: Raleway;
-  font-weight: 500;
-  color: #ffffff;
-  line-height: 1.5;
-}
-
-.contact__shedule p {
-  font-family: Vollkorn;
-  font-size: 13px;
-  line-height: normal;
-  color: #ffffff;
-}
-
-.contact__shedule button {
-  font-family: Raleway;
-  font-size: 15px;
-  font-weight: 500;
-  color: #ffffff;
-}
-
-.contact__button {
-  padding-top: 10px;
-}
-
 /** About us */
 
 .about-us__text {
@@ -167,9 +101,6 @@ p {
 
 .about-us__text h1 {
   color: #bf9e7b;
-}
-
-.about-us__imgwraper {
 }
 
 .about-us__image {
@@ -214,7 +145,7 @@ p {
 }
 
 .specialites__card p {
-  font-size: 18px;
+  font-size: 15px;
   color: #bf9e7b;
   text-align: center;
 }
@@ -260,7 +191,7 @@ p {
   font-weight: 500;
   line-height: 1.07;
   color: #ffffff;
-  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .menu__list p {
@@ -268,29 +199,17 @@ p {
   font-size: 12px;
   line-height: 1.92;
   color: #ffffff;
+  margin-top: 15px;
+}
+
+.menu__items p {
+  font-family: Raleway;
+  font-size: 23px;
+  font-weight: 500;
+  color: #bf9e7b;
+  line-height: 1;
+  margin-top: 20px;
   margin-bottom: 30px;
-  width: 280px;
-}
-
-.menu__price p {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 500;
-  line-height: 1.06;
-  color: #bf9e7b;
-  padding-top: 50px;
-  padding-bottom: 5px;
-  margin-left: 20px;
-}
-
-.menu__price2 p {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 500;
-  line-height: 1.06;
-  color: #bf9e7b;
-  padding-top: 58px;
-  margin-left: 20px;
 }
 
 .view-menu {
@@ -451,55 +370,50 @@ p {
 
 /* *Media Queries */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 533px) {
   .menu__back {
     width: 100%;
-    height: 1600px;
+    height: 3050px;
+    background-color: #141723;
+  }
+
+  .book__inputs input {
+    width: 120px;
+  }
+
+  .scpecialites__back {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 533px) {
+  .menu__back {
+    width: 100%;
+    height: 2630px;
     background-color: #141723;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .specialites__card p {
-    font-size: 11px;
-    color: #bf9e7b;
-  }
-
-  .scpecialites__back {
-    height: 430px;
-  }
-
-  .book__inputs input {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    width: 120px;
+@media screen and (min-width: 576px) {
+  .menu__back {
+    width: 100%;
+    height: 2325px;
+    background-color: #141723;
   }
 }
 
-@media screen and (max-width: 375px) {
-  .book__inputs input {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    width: 140px;
+@media screen and (min-width: 768px) {
+  .menu__back {
+    width: 100%;
+    height: 2050px;
+    background-color: #141723;
   }
 }
 
-@media screen and (max-width: 425px) {
-  .book__inputs input {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    width: 160px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 1070px) and (min-width: 320px) {
-  #button {
-    margin: 0 235px 10px 0;
+@media screen and (min-width: 992px) {
+  .menu__back {
+    width: 100%;
+    height: 1875px;
+    background-color: #141723;
   }
 }
