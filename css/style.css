@@ -1,0 +1,505 @@
+body {
+  font-family: "Yesteryear", cursive;
+  font-family: "Vollkorn", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  height: 1px;
+  width: 97%;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: Yesteryear;
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+p {
+  font-family: Vollkorn;
+  font-size: 20px;
+  line-height: 1.67;
+}
+
+/** Сверху пресет для удобства */
+
+/** Header */
+
+.header {
+  background-image: url(/img/headerback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 820px;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url(/img/headerback.jpg);
+
+  padding-top: 17px;
+}
+
+.title__icon {
+  color: #ffffff;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  color: #ffffff;
+}
+
+.title p {
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+
+/** Contact */
+
+.contact {
+  width: 380px;
+  height: 450px;
+  background-color: #141723;
+}
+
+.contact__text--wraper {
+  margin-left: 33px;
+  margin-top: 31px;
+  margin-right: 37px;
+}
+
+.contact__title h2 {
+  font-family: Vollkorn;
+  font-size: 25px;
+  color: #bf9e7b;
+}
+
+.contact__title p {
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.62;
+  color: #ffffff;
+}
+
+.contact__address h3 {
+  font-family: Raleway;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.contact__address p {
+  font-family: Vollkorn;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.contact__address a {
+  font-family: Vollkorn;
+  font-size: 13px;
+  color: #bf9e7b;
+}
+
+.contact__address hr {
+  width: 60px;
+  background-color: #be9d7a;
+}
+
+.contact__shedule h3 {
+  font-family: Raleway;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.contact__shedule p {
+  font-family: Vollkorn;
+  font-size: 13px;
+  line-height: normal;
+  color: #ffffff;
+}
+
+.contact__shedule button {
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.contact__button {
+  padding-top: 10px;
+}
+
+/** About us */
+
+.about-us__text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about-us__text p {
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2.5;
+  color: #808080;
+  margin-top: 30px;
+}
+
+.about-us__text h1 {
+  color: #bf9e7b;
+}
+
+.about-us__imgwraper {
+}
+
+.about-us__image {
+  background-image: url(/img/aboutusback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  background-position: center;
+}
+
+/** Specialites */
+
+.scpecialites__back {
+  margin-top: 42px;
+  background-image: url(/img/specialitesback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url(/img/specialitesback.jpg);
+}
+
+.specialites__title {
+  margin-top: 65px;
+}
+
+.specialites__title h1 {
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.specialites__title h3 {
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+
+.specialites__card p {
+  font-size: 18px;
+  color: #bf9e7b;
+  text-align: center;
+}
+
+/** Menu  List */
+
+.menu {
+  padding: 0;
+  margin: 0;
+}
+
+.menu__back {
+  width: 100%;
+  height: 2500px;
+  background-color: #141723;
+}
+
+.menu_title {
+  margin-top: 69px;
+}
+
+.menu h1 {
+  color: #bf9e7b;
+  text-align: center;
+}
+
+.menu h2 {
+  font-family: Raleway;
+  font-size: 25px;
+  line-height: 7;
+  color: #bf9e7b;
+  text-align: center;
+}
+
+.menu h3 {
+  font-family: Vollkorn;
+  line-height: 1.67;
+  color: #ffffff;
+}
+
+.menu__list h3 {
+  font-family: Raleway;
+  font-weight: 500;
+  line-height: 1.07;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.menu__list p {
+  font-family: Vollkorn;
+  font-size: 12px;
+  line-height: 1.92;
+  color: #ffffff;
+  margin-bottom: 30px;
+  width: 280px;
+}
+
+.menu__price p {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.06;
+  color: #bf9e7b;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+}
+
+.menu__price2 p {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.06;
+  color: #bf9e7b;
+  padding-top: 58px;
+  margin-left: 20px;
+}
+
+.view-menu {
+  padding: 40px;
+}
+
+.view-menu button {
+  width: 200px;
+  height: 55px;
+  background-color: #be9d7a;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 500;
+  color: #151824;
+}
+
+/* *Book a table */
+
+.book__back {
+  background-image: url(/img/bookback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 490px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url(/img/bookback.jpg);
+}
+
+.book__text {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.book__text p {
+  font-family: Vollkorn;
+  font-size: 15px;
+  line-height: 1.67;
+  color: #ffffff;
+}
+
+.book__inputs {
+  margin-top: 40px;
+}
+
+.book__inputs input {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  width: 200px;
+}
+
+.book__inputs h3 {
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.07;
+  color: #ffffff;
+  text-align: center;
+}
+
+.booknow button {
+  width: 150px;
+  height: 55px;
+  background-color: #be9d7a;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 500;
+  color: #151824;
+  margin-top: 50px;
+}
+
+/* *Footer */
+
+.footer__text {
+  margin-top: 60px;
+}
+
+.footer__back {
+  width: 100%;
+  height: 350px;
+  background-color: #141723;
+}
+
+.footer h3 {
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.footer p {
+  font-family: Vollkorn;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 2.6;
+}
+
+.footer a {
+  font-family: Vollkorn;
+  font-size: 12px;
+  color: #bf9e7b;
+  border: 1px solid;
+  padding: 5px;
+  width: 42px;
+  height: 42px;
+}
+
+.footer__links {
+  text-align: center;
+}
+
+.footer__links a {
+  color: #bf9e7b;
+  font-size: 22px;
+  border: 1px solid;
+  margin: 5px;
+}
+
+#button {
+  display: inline-block;
+  background-color: #bf9e7b;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* *Media Queries */
+
+@media screen and (min-width: 768px) {
+  .menu__back {
+    width: 100%;
+    height: 1600px;
+    background-color: #141723;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .specialites__card p {
+    font-size: 11px;
+    color: #bf9e7b;
+  }
+
+  .scpecialites__back {
+    height: 430px;
+  }
+
+  .book__inputs input {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .book__inputs input {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .book__inputs input {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 1070px) and (min-width: 320px) {
+  #button {
+    margin: 0 235px 10px 0;
+  }
+}
