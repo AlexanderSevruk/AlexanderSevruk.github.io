@@ -202,9 +202,9 @@ p {
   margin-top: 15px;
 }
 
-.menu__items p {
+.menu__list p {
   font-family: Raleway;
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 500;
   color: #bf9e7b;
   line-height: 1;
